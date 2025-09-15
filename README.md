@@ -14,6 +14,8 @@ BatteryOS enables you to evaluate 500+ potential battery sites for the same cost
 
 Our platform provides instant comprehensive analysis of any battery configuration at any location across all major ISOs. You get complete project economics, revenue optimization across all income streams, risk assessment, and performance benchmarking - delivered in seconds, not months.
 
+![BatteryOS Flow](bos-flow.svg)
+
 **Core Capabilities:**
 - **Exhaustive Site Evaluation**: Model every viable location simultaneously rather than analyzing a few pre-selected options
 - **Revenue-Agnostic Optimization**: Simultaneously optimize across energy arbitrage, frequency regulation, capacity payments, demand response, and grid services without hierarchical assumptions
