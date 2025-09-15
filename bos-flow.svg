@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" viewBox="0 0 1536 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#00A05000"/>
+      <stop offset="1" stop-color="#00A05040"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#00A05040"/>
+      <stop offset="1" stop-color="#00A05080"/>
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#00A05080"/>
+      <stop offset="1" stop-color="#00A050B0"/>
+    </linearGradient>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#00A050B0"/>
+      <stop offset="1" stop-color="#00A050FF"/>
+    </linearGradient>
+    <style>
+      .shape { 
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .label {
+        font-family: "Cascadia Mono";
+        font-size: 16px;
+        line-height: 1;
+        text-anchor: left;
+        white-space: pre;
+        stroke-width: 1;
+        color: #000;
+      }
+    </style>
+  </defs>
+  <g>
+    <path d="M48 48 L288 48 L336 96 L288 144 L48 144 Z" class="shape" fill="none"/>
+    <g>
+      <text class="label" x="64" y="100">Hi-res inputs</text>
+    </g>
+    <path d="M288 48 L576 48 L624 96 L576 144 L288 144 L336 96 Z" class="shape" fill="url(#grad2)"/>
+    <g>
+      <text class="label" x="352" y="88">Instant results</text>
+      <text class="label" x="352" y="112">= Timely analysis</text>
+    </g>
+    <path d="M576 48 L864 48 L912 96 L864 144 L576 144 L624 96 Z" class="shape" fill="url(#grad3)"/>
+    <g>
+      <text class="label" x="640" y="88">Nodal scoring</text>
+      <text class="label" x="640" y="112">= Great site selection</text>
+    </g>
+    <path d="M864 48 L1152 48 L1200 96 L1152 144 L864 144 L912 96 Z" class="shape" fill="url(#grad4)"/>
+    <g>
+      <text class="label" x="928" y="88">Revenue curves</text>
+      <text class="label" x="928" y="112">= Financing</text>
+    </g>
+    <path d="M1152 48 L1440 48 L1488 96 L1440 144 L1152 144 L1200 96 Z" class="shape" fill="url(#grad5)"/>
+    <g>
+      <text class="label" x="1216" y="88">Dispatch schedule</text>
+      <text class="label" x="1216" y="112">= Risk management</text>
+    </g>
+  </g>
+</svg>
